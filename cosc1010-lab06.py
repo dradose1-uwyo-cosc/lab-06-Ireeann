@@ -1,100 +1,35 @@
-# Your Name Here
+# Ireeann Anderson
 # UWYO COSC 1010
-# Submission Date
-# Lab 06
-# Lab Section: 
-# Sources, people worked with, help given to: 
+# Submission Date: 10/15/2024
+# HW 01
+# Lab Section: 16
+# Sources, people worked with, help given to:
 # your
 # comments
 # here
+# Homework Question:
+#
+# You are given a list of dictionaries where each dictionary represents a student and their scores
+# in different subjects.
 
+# Student Data
+students = [
+    {"name": "Alice", "scores": {"Math": 85, "Science": 90, "English": 78}},
+    {"name": "Bob", "scores": {"Math": 70, "Science": 88, "English": 82}},
+    {"name": "Charlie", "scores": {"Math": 92, "Science": 81, "English": 89}},
+    {"name": "David", "scores": {"Math": 60, "Science": 75, "English": 80}}
+]
 
-random_string = """
-jppamiqxegokaizvkyawwurhewtcxohryzptznyuedhhmawpic
-pkzwuiorngdfcsgqnlyifzyaivehpiyszykqprbcsobygzhadd
-yfddbulxmcnyvqhesmnybyuhxjqqmhdxwhcselasiayqhctnlw
-hakethjahqnvjdowhlyzosemxkbenestxgvgncmffkcxldcmkl
-itclmqdhrbdgzwtvdxwedcknbyaecvttjphtxubvhwvcvjqayy
-almxuxjbcmznnzekptfzbldsjwpvringlmalwufvlppeiendur
-dyophftqjkghhncwxoksqaqnpueudpygiytqgpcgjqsjbtbpzi
-vaeczmyicnednjjoxkpnjmpfbgyjnbfjlweqqppodfxfzzwkuf
-rldgryyhceuikimoavosuzuozthmatcgxcmkxnaxmsevkcumby
-spiajlbycvrluxdkfavxidzalxuixqkxiybhfuqhcvmrhzbzse
-idjwgwdwgfkyreozkyoxdvhixfejxjfgkkgobescboyfshiovu
-fxdyvfsnmjzsphgmtldlaoehofcspzujghcdcxzggvunpbtglr
-topplmkviuewwpoaplmbpgejmymxbyzzwbnujrlysszmxkjerb
-zpiewqvgopvhmmcgwcyvxvwhdvfgsrybcozhdtwujhdbxzznkc
-ergcqbetpgwrejuluqfxchlihunzbcdwboysjqenjxzbgqbycx
-dybxpyztjyxpkqfvxullzkedpkjjobhymfinpvprxejktyrpai
-ehjgwahpquzcmvclatdfcmattavoehnhnzveoxwnmnptxbvxto
-gpcobgzdhsjevhcohkltftmrqkosknkxeylhqxkkctbnusijgr
-uvecpbqmylqdaohkfaqbgeokyyipumjuaaayikdzyxfrpaieyo
-uxiosjwioebsjtslblfurgcodtyaggzovzfnnyjngawiwbbtqi
-kqqhnkwheolpqzasmsmbxqkeiqvogquobphewznfsnlkkizhca
-cbiyvxpmjxywqvzqtshfvnfbusphggexfqzepsrduvtovdsknl
-ztyuwugprkhbmktfvrenbmqgdjwnkeugtojrpqfmjhtrlcqcpq
-pwsguedzgvktpwbqkhkueymjtxbvzmdfjopzkygujrjdtogssg
-cxczryuqhhgjlpultkoffescpzyjrfqqabnhkfdnhkylpjamxk
-uxidjkqdrkxqjqjtflebvwhcvqjciykzhrvppvxhvpedgznwty
-kujglixooczrhxziasjxddfcghzlwrqcyiilpruhdfvitewxzg
-dzcvmvnoskchscgoqfsojfvahlwkrslzeirlblseplcmpmbmum
-ibrdamvqfstydtjopdkdcbnnmpifxckozyxzluhcqbqtpismog
-ulufaajxvuizvdzioxfvypxovptkibcrjvfidomejknuggfrtp
-kptwffersvqjknemkejsgspckwqisdcliuezhbeqpwgrjcqajl
-huobykkbujmyuuinbwdklqfhvakyozzsxghfyownjjwqtkxgkf
-ipdbjzxfogozstfsektujsvklrvecditiectuvtfibohmxxzna
-cpqzeoburtquuizhypugnkvuwbdxnraareqkofhfjobrpcsuxq
-nbafxlkuafbfsiuyrxdusqyasqyrwhdjrukgxdackumvairlgn
-fjhenwbrdghbevgqbybpwncclolgqyuhallbqtzdywbvlzwtil
-jctmsxjortnxvlbhuhkblppewjhqjzxrwgftlturxjuwfoaqpp
-sgfnxwxolkbrpdmpniitoljzaxabgtnelrmryetxqypwrjdyjc
-zipwbdpbazxpesmrcfuikeamtlsrgxrhzfytecenyydeemrhxj
-gmdruhillntvpadzbroyygydpmonwuakruvxbdrqhtrjvoqsin
-gjbarzvuqplmsmbwtqfghteoknbxmaokwlqqfoblmzsxczjzfj
-mzmawtarjdtgongqqufhhdjwcinhlxcsgoltjycxrkloqozxoi
-crlfmgflzzxgiiliqlksxyaydsohhahzxtsufzppftvgbpsdlx
-ertfmbothijzrrdvfrnsohnwulcxvcvxngvmznhazxrgdsugij
-fracotpirvqemsiuualpkpvtmtgchmowkmvoolrjfblrtwkmtr
-xhawucytgwlahddkhxxfublukkdldpovqokntydhzzrxiisdwu
-ujrkoewqoflyebogbwgdhriwkkoiofwtjlhxxtmzkklzbcmxhv
-lrslowamkcwolbcgfkfciegdwqskuazxnycqkkggzsowcmafay
-ibmkdwkqmdkjesqnjiqpijixbwjhenmsrrlpcseliiajlvcaac
-zkdenxczyooloczcaahnkehbwimvieedpdlqfafbqvxvfmvabd
-"""
-random_string = random_string.replace("\n","") #remove all newline characters
-print(len(random_string)) # Print out the size for reference 
+# Dictionary to store the average scores
+average_scores = {}
 
-# Above is a string with 2500 characters.
-# Create a program that goes through and counts the occurrence of each character, excluding \n using a  dictionary
-# Output each letter and its corresponding occurrence in alphabetical order
-# Output which letter occurred the most 
-# Output which letter occurred the least 
-# Output what the percentage of the string each character is, again in alphabetical
+# Calculate the average score for each student
+for student in students:
+    scores = student["scores"].values()  # Get the scores for the student
+    average = sum(scores) / len(scores)  # Calculate the average
+    average_scores[student["name"]] = average  # Store in the dictionary
 
-#Tips and trick:
-# You can iterate through strings like you would a list
-# All characters are lowercase 
-# Each letter will be PAIRED with its corresponding value 
-# That is to say, this is a great use of dictionaries
-    # You will  need to add the letter to the dictionary on first occurrence 
-    # Then increment its corresponding count 
-
-
-#Load all the elements into a dictionary
-#Will need to first declare a dictionary 
-
-# Output: each letter and its corresponding occurrence in alphabetical order
-
-print("*"*75)
-# Output which letter occurred the most 
-
-most_occurred = ""
-least_occurred = ""
-
-print(f"The letter that occurred the most is {most_occurred}")
-print("*"*75)
-# Output which letter occurred the least 
-print(f"The letter that occurred the most is {least_occurred}")
-print("*"*75)
-
-# Output what the percentage of the string each character is, again in alphabetical
+# Print the names of students whose average score is greater than 80
+for name, avg in average_scores.items():
+    if avg > 80:
+        print(f"{name} has an average score of {avg:.2f}, which is greater than 80.")
